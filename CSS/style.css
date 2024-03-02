@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width:1200px;
+}
+.title{
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 50px;
+}
+.para{
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+}
+.button{
+    background: #516A65;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    line-height: 60px;
+}
+.button:hover{
+    background-color: black;
+}
+/* Banner */
+.banner{
+    background-image: url(../images/sunlight-on-tree.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.banner h1{
+    font-size: 70px;
+    color: black;
+    line-height: 75px;
+}
+.banner p{
+    padding-top: 100px;
+    margin: 0;
+    text-align: center;
+    color: black;
+    line-height: 0px;
+    font-size: 26px;
+}
+img.adventure{
+    width: 12rem;
+    position: relative;
+    top: 14rem;
+}
+img.bg-back {
+    position: relative;
+    top: 12rem;
+}
+/* 2nd section */
+.sncd-section{
+    background-color: #111111;
+    color: #fff;
+}
+.sncd-section .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sncd-section .left-img{
+    padding: 30px;
+    width: 50%;
+}
+.sncd-section .left-section img{
+    position: relative;
+    top: 4rem;
+}
+.sncd-section .right-section{
+    width: 50%;
+}
+.sncd-section .right-section .text{
+    padding-top: 8rem;
+    padding-left: 3rem;
+}
+/* Third Section */
+.third-section{
+    background-color: #111111;
+    color: #fff;
+    margin-top: -4rem;
+}
+.third-section .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.third-section .main .right-section .third{
+    padding: 106px;
+}
+.forth-section .main .left-section .top-img{
+    margin-top: -25rem;
+}
+/* Forth Section */
+.forth-section{
+    background-color: #111111;
+    color: #fff;
+    margin-top: -4rem;
+}
+.forth-section .main .left-section img{
+    padding: 30px;
+}
+.forth-section .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Counter */
+.counter{
+    text-align: center;
+    width: 100%;
+    background-color: #5A7670;
+}
+.counter .counter-header{
+    margin: 0;
+    padding: 20px;
+}
+.counter .counter-header p{
+    text-align: center;
+    text-align: justify;
+}
+.counter .counter-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+}
+.counter .counter-data .counter-text{
+    padding: 30px;
+}
+.counter .counter-data .counter-text h3{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+}
+.counter .counter-data .counter-text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;    
+    color: #FFFFFF;
+}
+.countersncd-section{
+    margin-top: -2rem;
+}
+.counter-section .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.counter-section .left-img{
+    padding: 30px;
+    width: 50%;
+}
+.counter-section .left-section img{
+    width: 289px;
+    height: 453px;
+}
+.counter-section .right-section{
+    width: 50%;
+}
+.counter-section .right-section .text{
+    padding-top: 8rem;
+    padding-left: 3rem;
+}
+.counter-para{
+    color: #fff;
+}
+/* Footer */
+footer{
+    background-color: #333333;
+    padding: 40px 0;
+    text-align: center;
+}
+footer a{
+    color: grey;
+}
+footer a:hover{
+    color: white;
+}
+footer a span{
+    color: white;
+    text-decoration: none;
+    padding: 0 50xp;
+}
